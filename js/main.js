@@ -22,14 +22,39 @@ let difficolta = document.getElementById('difficolta').value;
 
 console.log(difficolta);
 
+let DimensioniGriglia = 0;
 let rows = 0;
 
 
 if (difficolta === '1'){
-
+    DimensioniGriglia = 100;
     rows = 10;
+}
+else if (difficolta === '2'){
+    DimensioniGriglia = 81;
+    rows = 9;
+} else if (difficolta === '3'){
+    DimensioniGriglia = 49;
+    rows = 7;
+}
+
+container.style.gridTemplateColumns = `repeat(${rows}, 1fr)`;
+
+for (let index = 1; index <= DimensioniGriglia; index++) {
+    const element = document.createElement('div');
+    element.classList.add('box')
+    element.innerHTML = `<div class="box-interno">${index}</div>`
+    container.appendChild(element);
+    
+}
+
+
+
+
+
+
+
 
 }
 
 
-}

@@ -12,6 +12,14 @@ body{
     display: grid;
 }
 
+.box{
+    background-color: antiquewhite;
+}
+
+.box-interno{
+    
+}
+
 div{
     
 }
