@@ -2,11 +2,8 @@
    
 }
 
-
 body{
-    background-color: black;
-    
-    
+    background-color: black; 
 }
 
 .container-grid{
@@ -16,14 +13,11 @@ body{
 
 h1{
     color: red;
-    font-size: 46px;
-    
+    font-size: 46px; 
 }
-
-.vv_margin-0-auto{
-    margin: 0 auto;
+p{
+    color: white;
 }
-
 
 .box{
     background-color: antiquewhite;
@@ -31,6 +25,7 @@ h1{
     position: relative;
     padding-top: 100%;
 }
+
 .box.clicked{
     background-color: blue;
 }
@@ -41,11 +36,6 @@ h1{
     bottom: 0;
     right: 0;
     left: 0;
-    
-
 
 }
 
-div{
-    
-}
