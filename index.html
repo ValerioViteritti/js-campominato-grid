@@ -16,21 +16,25 @@
 
 </head>
 <body>
-    <div class="container">
-        <div>
-            <button onclick="GeneraGriglia()">Scelgi la Difficoltà</button>
-            <!-- // Aggiungere una select accanto al bottone di generazione, che fornisca una scelta tra tre diversi livelli di difficoltà: -->
-            <select id="difficolta">
+    <div class="container w-75 d-flex justify-content-center flex-column">
+        <h1 class="text-center">CAMPO MINATO</h1>
+        <div class="row">
+            <div class="col">
+                <button class="vv_margin-0-auto" onclick="GeneraGriglia()">Scelgi la Difficoltà</button>
+                <!-- // Aggiungere una select accanto al bottone di generazione, che fornisca una scelta tra tre diversi livelli di difficoltà: -->
+                <select id="difficolta" class="text-center">
                 <option></option>
                 <option value="1">Facile</option>
                 <option value="2">Medio</option>
                 <option value="3">Difficile</option>
-            </select>
+                </select>
+            </div>
+            
         </div>
     </div>
 
 
-    <div id="grid" class="container-grid">
+    <div id="grid" class="container-grid w-75">
         
     </div>
     

@@ -46,9 +46,10 @@ function GeneraGriglia() {
 
         element.addEventListener('click', function(){
             element.classList.toggle('clicked');
+            console.log(`Hai cliccato sulla cella numero: ${index}`);
 
 
-        });
+    });
     
     
    

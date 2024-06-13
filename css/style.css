@@ -1,17 +1,29 @@
 *{
-    box-sizing: border-box;
-
+   
 }
 
 
 body{
+    background-color: black;
     
     
 }
 
 .container-grid{
     display: grid;
+    margin: 0 auto;
 }
+
+h1{
+    color: red;
+    font-size: 46px;
+    
+}
+
+.vv_margin-0-auto{
+    margin: 0 auto;
+}
+
 
 .box{
     background-color: antiquewhite;
